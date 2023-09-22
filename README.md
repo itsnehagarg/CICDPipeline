@@ -43,6 +43,12 @@ http://localhost:8080/
 
 ## let's Dockerize the Spring Boot application
 
-### Create a docker file
+### Create a docker file Dockerfile
+FROM openjdk:8-jdk-alpine
+WORKDIR /opt/app
+COPY target/NewProjectSpringBoot-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java","-jar","app.jar"]
+
+
 
 
