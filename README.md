@@ -54,14 +54,15 @@ ENTRYPOINT ["java","-jar","app.jar"]
 
 ### Build the Docker Image
 
-docker build -t ultimate-cicd-pipeline:v1 .
+docker build -t newapp:v1 .
 
-docker run -d -p 8010:8080 -t ultimate-cicd-pipeline:v1
+docker run -d -p 8010:8080 -t newapp:v1
 
 Application is available on 
 
 http://<ip-address>:8010
 
+![image](https://github.com/itsnehagarg/CICDPipeline/assets/20385826/2a2b7933-ee1a-41ad-ae62-32ae4a743e6d)
 
 
 
