@@ -76,4 +76,6 @@ http://<ip-address>:8010
 ![image](https://github.com/itsnehagarg/CICDPipeline/assets/20385826/2a2b7933-ee1a-41ad-ae62-32ae4a743e6d)
 
 
+## Step 2: Install Jenkins
+
 
