@@ -59,10 +59,12 @@ COPY target/NewProjectSpringBoot-0.0.1-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["java","-jar","app.jar"]
 
-### Build the Docker Image
+### Build the Docker Image:
+
 
 ``docker build -t newapp:v1 .
 ``
+
 ``
 docker run -d -p 8010:8080 -t newapp:v1
 ``
