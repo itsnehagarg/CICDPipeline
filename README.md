@@ -91,6 +91,28 @@ sudo apt-get update
 sudo apt-get install jenkins
 
 ``
+## Step 6: Enable the Jenkins service to start at boot:
+
+```sh 
+sudo systemctl enable jenkins
+```
+
+## Step 7: Start Jenkins as a service:
+
+```sh 
+sudo systemctl start jenkins
+```
+
+## Step 8: You can check the status of the Jenkins service using the command:
+
+```sh 
+sudo systemctl status jenkins
+```
+
+## Step 9: Access Jenkins
+
+http://<localhost>:8080
+
 
 
 
