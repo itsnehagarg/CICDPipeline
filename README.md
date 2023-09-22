@@ -61,11 +61,13 @@ ENTRYPOINT ["java","-jar","app.jar"]
 
 ### Build the Docker Image
 
-docker build -t newapp:v1 .
-
+``docker build -t newapp:v1 .
+``
+``
 docker run -d -p 8010:8080 -t newapp:v1
+``
 
-Application is available on 
+#### Application is available on: 
 
 http://<ip-address>:8010
 
