@@ -108,6 +108,9 @@ sudo systemctl start jenkins
 ```sh 
 sudo systemctl status jenkins
 ```
+## To check if the jenkins is running
+
+ps -ef | grep jenkins
 
 ## Step 9: Access Jenkins
 
