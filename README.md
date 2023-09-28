@@ -114,7 +114,7 @@ ps -ef | grep jenkins
 
 ## Step 9: Access Jenkins
 
-http://<localhost>:8080
+http://localhost:8080
 
 
 ![image](https://github.com/itsnehagarg/CICDPipeline/assets/20385826/b0f833be-38e3-4906-889e-6e573d893609)
